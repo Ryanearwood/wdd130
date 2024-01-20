@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@500&display=swap');
+body {
+    font-family: assistant;
+}
+.callout-box {
+    font-family: 'Font1', assistant;
+}
+:root {
+    --primary-color: #abff4f;
+    --secondary-color: #29bf12;
+    --accent1-color: #08bdbd;
+    --accent2-color: #f21b3f;
+
+    --heading-font: 'assistant';
+    --paragraph-font: 'assistant';
+
+    --nav-background-color: #ff9914;
+    --nav-link-color: #08bdbd;
+    --nav-hover-link-color: #29bf12;
+    --nav-hover-background-color: #abff4f
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--heading-font);
+    color: #29bf12;
+}
+
+header {
+    padding: 20px;
+    background-color: #3366cc; 
+    color: #1e2952; 
+}
+
+p {
+    padding: 25px;
+}
+
+nav {
+    background-color: var(--nav-background-color);
+    font-size: 1.2rem;
+    display: flex;
+}
+
+nav a {
+    display: block;
+    color: var(--nav-link-color);
+    text-decoration: none;
+    padding: 1rem;
+}
+
+
+nav a:link, nav a:visited {
+    color: var(--nav-link-color);
+}
+
+nav a:hover {
+    color: var(--nav-hover-link-color);
+    background-color: var(--nav-hover-background-color);
+}
+
+
+
