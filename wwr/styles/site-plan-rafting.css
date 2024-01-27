@@ -1,28 +1,31 @@
 @import url('https://fonts.googleapis.com/css2?family=Assistant:wght@500&display=swap');
+
 body {
-    font-family: assistant;
+    font-family: 'Assistant', sans-serif;
 }
+
 .callout-box {
-    font-family: 'Font1', assistant;
+    font-family: 'Assistant', sans-serif;
 }
+
 :root {
+    --heading-font: 'Assistant', sans-serif;
+    --paragraph-font: 'Assistant', sans-serif;
+
     --primary-color: #abff4f;
     --secondary-color: #29bf12;
     --accent1-color: #08bdbd;
     --accent2-color: #f21b3f;
 
-    --heading-font: 'assistant';
-    --paragraph-font: 'assistant';
-
     --nav-background-color: #ff9914;
     --nav-link-color: #08bdbd;
     --nav-hover-link-color: #29bf12;
-    --nav-hover-background-color: #abff4f
+    --nav-hover-background-color: #abff4f;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4 {
     font-family: var(--heading-font);
-    color: #29bf12;
+    color: var(--secondary-color);
 }
 
 header {
@@ -39,18 +42,14 @@ nav {
     background-color: var(--nav-background-color);
     font-size: 1.2rem;
     display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
 nav a {
-    display: block;
     color: var(--nav-link-color);
     text-decoration: none;
     padding: 1rem;
-}
-
-
-nav a:link, nav a:visited {
-    color: var(--nav-link-color);
 }
 
 nav a:hover {
@@ -58,5 +57,6 @@ nav a:hover {
     background-color: var(--nav-hover-background-color);
 }
 
-
-
+.social-media-link a {
+    text-decoration: none;
+}
