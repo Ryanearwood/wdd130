@@ -1,9 +1,62 @@
 @import url('https://fonts.googleapis.com/css2?family=Assistant:wght@500&display=swap');
-  
-  .social-media-link a {
-    text-decoration: none; 
-  }
-  
+:root {
+    --heading-font: 'Assistant', sans-serif;
+    --paragraph-font: 'Assistant', sans-serif;
+
+    --primary-color: #abff4f;
+    --secondary-color: #29bf12;
+    --accent1-color: #08bdbd;
+    --accent2-color: #f21b3f;
+
+    --nav-background-color: #ff9914;
+    --nav-link-color: #08bdbd;
+    --nav-hover-link-color: #29bf12;
+    --nav-hover-background-color: #abff4f;
+}
+.hero {
+    position: relative;
+    overflow: hidden;
+}
+.hero img {
+    display: block;
+    width: 100%; 
+    height: auto;
+}
+.hero h1 {
+    position: absolute;
+    top: 10%; 
+    left: 70%; 
+    transform: translate(-50%, -50%); 
+    color: black; 
+    z-index: 1; 
+    font-family: var(--heading-font); 
+}
+.hero article {
+    position: absolute;
+    top: 20px;
+    right: 20px; 
+    background-color: rgba(0, 0, 0, 0.5); 
+    padding: 20px; 
+    color: white; 
+    font-family: var(--paragraph-font); 
+}
+.hero article p {
+    margin-top: 0;
+}
+.hero article img {
+    float: right;
+    margin-left: 10px; 
+}
 
   
+body {
+    color: blue;
+    
+
+}
   
+a:link { text-decoration: none; }
+a:visited { text-decoration: none; }
+a:active { text-decoration: none; }
+
+
