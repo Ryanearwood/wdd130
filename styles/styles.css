@@ -5,6 +5,7 @@
 }
 .grid {
     display: grid;
+    grid-template-columns: auto 1fr;
     align-items: center;
 }
 main {
@@ -30,7 +31,16 @@ nav a {
 
 h1 {
     color: steelblue;
-    padding: .5rem
+    padding: .5rem;
+    border-bottom: 2px solid steelblue;
+    
+}
+nav a:not(h1) {
+    padding: 0.5rem;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: #fff;
 }
 
 img {
