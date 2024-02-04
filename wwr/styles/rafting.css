@@ -13,11 +13,34 @@
     --nav-hover-link-color: #29bf12;
     --nav-hover-background-color: #abff4f;
 }
+header {
+    margin: 1rem auto;
+    display: grid;
+    grid-template-columns: auto 1fr;
+    align-items: center;
+    padding: 30px;
+    border-bottom: 1px solid #ccc;
+    max-width: 1000px;
+    
+  }
+/* nav links */
+nav a {
+    
+    text-decoration: none;
+    margin: 0 20px; 
+    font-size: 20px; 
+}
+
+
+
+
+  
 .hero {
     position: relative;
     overflow: hidden;
 
 }
+/*content inside banner*/
 .hero-content {
     position: absolute;
     top: 20%;
@@ -49,7 +72,7 @@
 }
 .hero h1 {
     position: absolute;
-    top: -15%; 
+    top: -20%; 
     left: 45%; 
     transform: translate(-50%, -50%); 
     color: black; 
@@ -64,7 +87,7 @@
     background-color: rgba(0, 0, 0, 0.5); 
     padding: 20px; 
     color: white; 
-    font-family: var(--paragraph-font); 
+     
 }
 .hero article p {
     margin-top: 0;
@@ -77,15 +100,75 @@
     
 }
 
-  
+  /*background*/
 body {
-    color: blue;
+    color: black;
+    background-color: aqua;
     
 
 }
-  
+    
 a:link { text-decoration: none; }
 a:visited { text-decoration: none; }
 a:active { text-decoration: none; }
+nav {
+    display: flex;
+    justify-content: flex-end;
+    margin-left: 10px;
+    align-items: center;  
+  }
+.image-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.image-container img {
+    margin-bottom: 30px; 
+    width: 500px;
+}
+footer nav {
+    
+    align-items: center; 
+    margin: 0 auto; 
+}
+
+footer nav a {
+    margin: 0 10px; 
+}
+
+/* The History section */
+section:nth-of-type(1),
+section:nth-of-type(2) {
+    background-color: lavender;
+    padding: 20px;
+    margin: 0 auto; 
+    max-width: 700px; 
+}
+
+/* The section headers */
+section h2 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 10px;
+    text-align: center; 
+}
+
+/* The paragraphs within sections */
+section p {
+    color: #666;
+    font-size: 16px;
+    line-height: 1.6;
+    text-align: justify; 
+}
+/* figcaption */
+.image-container figcaption {
+    margin-top: 10px;
+    font-style: italic;
+    text-align: center; 
+    text-decoration: underline;
+}
+
+
 
 
