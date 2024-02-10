@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <meta name="author" content="Ryan Earwood"/>
+    <meta name="description" content="This page offers different ways to contact us." />
+    
+    <link rel="stylesheet" href="styles/rafting.css">
+</head>                                      
+<body>
+
+<header>
+    <img src="images/raftlogo.png" alt="Raft Logo">
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About Us</a>
+        <a href="trips.html">Trips</a>
+        <a class="current" href="contact.html">Contact Us</a>
+    </nav>
+</header>
+
+<main>
+    <h1>Contact Us</h1>
+
+    <h2>Send Us a Message</h2>
+
+    <p>White Water Rafting</p>
+    <p>Phone: 555-999-5555</p>
+    <p>Email: <a href="mailto:earwo5432@gmail.com">Contact us at earwo5432@gmail.com</a></p>
+
+    <section class="employee-profiles">
+        <h3 class="team-heading">Meet Our Team</h3>
+        
+        <div class="employee">
+            <img src="/images/raftjohn.jpg" alt="Employee 1">
+            <p>John Doe - Owner</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt possimus esse maxime dolore eos, omnis, corrupti repudiandae fuga laudantium iusto unde deleniti, vel consequuntur odio amet temporibus placeat aut nulla.</p>
+        </div>
+
+        <div class="employee">
+            <img src="/images/raftjane.jpg" alt="Employee 2">
+            <p>Jane Smith - Rafting Guide</p>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsam modi optio quo vel reprehenderit molestiae maxime similique, nihil animi dolores esse, laboriosam eaque nulla ea minus dolorum veniam enim fugit.</p>
+        </div>
+
+        <div class="employee">
+            <img src="/images/raftmaverick.jpg" alt="Employee 3">
+            <p>Maverick Ryan - Equipment Manager</p>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempora ullam eveniet fugiat, ad dicta maxime vero quia obcaecati, delectus nisi repellat magni eligendi perferendis laboriosam id libero repellendus quasi consectetur.</p>
+        </div>
+    </section>
+
+    <div class="map">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d780.7570219744916!2d-78.960777764…600" height="450" allowfullscreen loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+
+        </iframe>
+    
+    </div>
+
+    <form>
+        <fieldset>
+            <legend>Contact Information</legend>
+            <div class="form-item">
+                <label for="fullname">Full Name:</label>
+                <input type="text" id="fullname" name="fullname" required>
+            </div>
+            <div class="form-item">
+                <label for="useremail">Email:</label>
+                <input type="email" id="useremail" name="useremail" required>
+            </div>
+        </fieldset>
+
+        <fieldset>
+            <legend>Purpose of Message</legend>
+            <div class="form-item">
+                <input type="radio" id="general" name="purpose" value="General Inquiry">
+                <label for="general">General Inquiry</label>
+            </div>
+            <div class="form-item">
+                <input type="radio" id="reservation" name="purpose" value="Reservation Question">
+                <label for="reservation">Reservation Question</label>
+            </div>
+            <div class="form-item">
+                <input type="radio" id="suggestion" name="purpose" value="Website Suggestion">
+                <label for="suggestion">Website Suggestion</label>
+            </div>
+        </fieldset>
+
+        <fieldset>
+            <legend>Message</legend>
+            <div class="form-item">
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+            </div>
+        </fieldset>
+
+        <div class="form-item">
+            <input type="checkbox" id="subscribe" name="subscribe">
+            <label for="subscribe">Please subscribe me to the monthly newsletter</label>
+        </div>
+
+        <button type="submit">Submit Form</button>
+    </form>
+</main>
+
+<footer>
+    <p>&copy; 2024 White Water Rafting | Ryan Earwood</p>
+    <nav class="sociallinks"> 
+        <a href="https://facebook.com">
+            <img src="images/imagefb.png" alt="Facebook">
+        </a>
+        <a href="https://twitter.com">
+            <img src="images/imagetwitter.png" alt="Twitter">
+        </a>
+        <a href="https://instagram.com">
+            <img src="images/imageinsta.png" alt="Instagram">
+        </a>
+    </nav>
+</footer>
+
+</body>
+</html>

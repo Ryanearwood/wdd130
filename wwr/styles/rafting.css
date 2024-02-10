@@ -29,8 +29,16 @@ nav a {
     text-decoration: none;
     margin: 0 20px; 
     font-size: 20px; 
+    color:antiquewhite
 }
 
+a[href^="mailto:"] {
+    color: white; /* Change color for email link*/
+    
+}
+a[href^="mailto:"]:hover {
+    color: pink ; /* Change the color of the hover*/
+}
 
 
 
@@ -102,8 +110,8 @@ nav a {
 
   /*background*/
 body {
-    color: black;
-    background-color: aqua;
+    color: white;
+    background-color: navy;
     
 
 }
@@ -140,7 +148,7 @@ footer nav a {
 /* The History section */
 section:nth-of-type(1),
 section:nth-of-type(2) {
-    background-color: lavender;
+    background-color: black;
     padding: 20px;
     margin: 0 auto; 
     max-width: 700px; 
@@ -170,5 +178,92 @@ section p {
 }
 
 
+body {
+    font-family: Arial, sans-serif;
+    
+  }
+  form {
+    max-width: 500px;
+    margin: 0 auto;
+  }
+  fieldset {
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    padding: 20px;
+  }
+  legend {
+    font-weight: bold;
+  }
+  .form-item {
+    margin-bottom: 15px;
+  }
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  input[type="text"],
+  input[type="email"],
+  select,
+  textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    
+  }
+  input[type="checkbox"] {
+    margin-right: 5px;
+  }
+  button[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  button[type="submit"]:hover {
+    background-color: #45a049;
+  }
+  .employee-profiles {
+    max-width: 700px; 
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
 
+.employee {
+    display: flex;
+    width: 100%; 
+    margin: 10px;
+    text-align: center;
+    margin-bottom: 20px;
+    align-items: center;
+}
 
+.employee img {
+    
+    width: 200px; 
+    height: auto;
+    border-radius: 10px; 
+    margin: 0 auto;
+}
+.map {
+    margin-top: 20px; 
+    text-align: center;
+    
+}
+.team-heading {
+    margin-bottom: 20px; 
+    color: white;
+    text-decoration: underline;
+}
+.employee p{
+    
+    margin-right: 20px;
+    color: white;
+    
+}
