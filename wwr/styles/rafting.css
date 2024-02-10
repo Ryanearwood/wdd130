@@ -252,11 +252,6 @@ body {
     border-radius: 10px; 
     margin: 0 auto;
 }
-.map {
-    margin-top: 20px; 
-    text-align: center;
-    
-}
 .team-heading {
     margin-bottom: 20px; 
     color: black;
@@ -271,5 +266,57 @@ body {
 .employee-info {
     flex: 1;
     margin-left: 20px; /* Adjust spacing between image and info */
-    text-align: left; /* Align info to left */
+    text-align: left; 
+}
+main {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.content-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1000px;
+    padding: 20px;
+    background-color: #08bdbd;
+    
+}
+
+.employee-profiles,
+.contact-form {
+    flex-basis: calc(50% - 10px); /* width of each section */
+    margin-bottom: 20px;
+}
+
+.bottom-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1000px;
+}
+
+.map,
+form {
+    flex-basis: calc(50% - 10px); 
+    margin-bottom: 20px;
+}
+
+
+.contact-form {
+    padding: 20px;
+    background-color: #f2f2f2;
+}
+
+.contact-form h2 {
+    margin-top: 0;
+}
+
+.map {
+    text-align: center;
 }
