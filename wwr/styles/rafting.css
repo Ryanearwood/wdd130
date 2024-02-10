@@ -8,7 +8,7 @@
     --accent1-color: #08bdbd;
     --accent2-color: #f21b3f;
 
-    --nav-background-color: #ff9914;
+    --nav-background-color: #333333;
     --nav-link-color: #08bdbd;
     --nav-hover-link-color: #29bf12;
     --nav-hover-background-color: #abff4f;
@@ -29,15 +29,15 @@ nav a {
     text-decoration: none;
     margin: 0 20px; 
     font-size: 20px; 
-    color:antiquewhite
+    color: red;
 }
 
 a[href^="mailto:"] {
-    color: white; /* Change color for email link*/
+    color: black; /* Change color for email link*/
     
 }
 a[href^="mailto:"]:hover {
-    color: pink ; /* Change the color of the hover*/
+    color: red ; /* Change the color of the hover*/
 }
 
 
@@ -110,8 +110,8 @@ a[href^="mailto:"]:hover {
 
   /*background*/
 body {
-    color: white;
-    background-color: navy;
+    color: black;
+    background-color: var(--nav-hover-link-color);
     
 
 }
@@ -148,7 +148,8 @@ footer nav a {
 /* The History section */
 section:nth-of-type(1),
 section:nth-of-type(2) {
-    background-color: black;
+    background-color:#08bdbd;
+    ;
     padding: 20px;
     margin: 0 auto; 
     max-width: 700px; 
@@ -258,12 +259,17 @@ body {
 }
 .team-heading {
     margin-bottom: 20px; 
-    color: white;
+    color: black;
     text-decoration: underline;
 }
 .employee p{
     
     margin-right: 20px;
-    color: white;
+    color: black
     
+}
+.employee-info {
+    flex: 1;
+    margin-left: 20px; /* Adjust spacing between image and info */
+    text-align: left; /* Align info to left */
 }
