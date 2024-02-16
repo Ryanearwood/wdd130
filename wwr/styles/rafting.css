@@ -39,11 +39,11 @@ nav a {
 }
 
 a[href^="mailto:"] {
-    color: black; /* Change color for email link*/
+    color: black; 
     
 }
 a[href^="mailto:"]:hover {
-    color: red ; /* Change the color of the hover*/
+    color: red ;
 }
 
 
@@ -389,6 +389,7 @@ form {
     display: flex;
     flex-direction: column;
     align-items: center;
+    
 }
 
 .banner4 {
@@ -443,7 +444,7 @@ form {
 .book-a-trip-section {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    text-align: center; /* Add this line to center the text */
+    text-align: center; 
     gap: 20px;
     justify-content: center;
 }
